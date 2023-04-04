@@ -1,0 +1,32 @@
+.product_card {
+}
+
+.product_card img {
+  width: 100%;
+}
+.product_card img:hover {
+  transform: scale(103%);
+  transition: all ;
+}
+.product_card h4 {
+  margin-top: 0.6rem;
+  padding: 0 0.3rem;
+}
+.product_card .price_details {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.2rem;
+  padding: 0 0.3rem;
+}
+.product_card .price_details span:nth-child() {
+  display: flex;
+  justify-content: space-between
+}
+.product_card .price_details span:nth-child(2) {
+  text-decoration: line-through;
+}
+.product_card .price_details span:nth-child(3) {
+  margin-left: auto;
+  color: green;
+  font-weight: bold;
+}

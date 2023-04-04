@@ -1,0 +1,88 @@
+.header {
+  width: 72rem;
+  height: 4rem;
+  padding: 0 5rem;
+  margin: auto;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 20;
+  position: sticky;
+  top: 0;
+  transition: all 3s;
+}
+.header img {
+  width: 4rem;
+}
+
+.menu_icons {
+  display: flex;
+  gap: 1rem;
+  font-weight: bold;
+  
+}
+.menu_icons .wish{
+  position: relative;
+}
+.menu_icons .wish sup{
+    display: inline-block;
+  background-color: red;
+  width: 0.9rem;
+  height: 0.9rem;
+  text-align: center;
+  border-radius: .9rem;
+  position: absolute;
+  top: -0.4rem;
+  left: .8rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.wish_icon {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.cart {
+  position: relative;
+}
+.cart sup {
+  width: 0.9rem;
+  height: 0.9rem;
+  text-align: center;
+  background-color: red;
+  border-radius: 0.5rem;
+  position: absolute;
+  top: -0.3rem;
+  left: 0.9rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.cart_icon {
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.humbarg_menu {
+  display: none;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: 100vw;
+    height: 4rem;
+    background-color: white;
+    padding: 0 1rem;
+  }
+
+
+
+  .humbarg_menu {
+    display: block;
+   padding-left: 0.5rem;
+   
+  }
+}

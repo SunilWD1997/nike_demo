@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap');
+
+.footer{
+    padding: 4rem 9rem;
+    background-color: black;
+    color: white;
+    
+}
+.footer a{
+
+    color: rgb(119, 119, 119);
+    margin-bottom: 0.3rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+.footer a:hover{
+
+    color: rgb(83, 83, 83);
+    text-decoration: underline;
+}
+.footer h5{
+
+    font-size: 0.8rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.4rem;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+.footer .footer_top{
+ display: flex;
+ gap: 4rem;
+}
+.footer .section_2{
+ display: flex;
+ gap: 3rem;
+}
+.footer .section_2 .sub_sections{
+ display: flex;
+ flex-direction: column;
+ 
+}
+ .social_icons{
+ margin-left: auto;
+ display: flex;
+ gap: 1rem;
+}
+ .social_icons .icons{
+background-color: rgb(85, 85, 85);
+width: 2rem;
+height: 2rem;
+padding: 0.5rem;
+border-radius: 1rem;
+}
+ .social_icons .icons:hover{
+background-color: rgb(53, 52, 52);
+cursor: pointer;
+}
+.footer .footer_bot{
+ display: flex;
+ justify-content: space-between;
+ margin-top: 1rem;
+ color: grey;
+}
+.footer .footer_bot{
+ display: flex;
+ justify-content: space-between;
+ margin-top: 1rem;
+ color: grey;
+}
+.footer .footer_bot .right{
+ display: flex;
+ gap: 1rem;
+}
+
+
+@media  screen and (max-width: 768px) {
+    .footer{
+        padding: 2rem 2rem;
+       
+    }
+
+    .footer .footer_top{
+       flex-direction: column;
+       }
+
+       .social_icons{
+        margin: auto;
+        
+       }
+}

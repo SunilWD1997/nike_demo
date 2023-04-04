@@ -1,0 +1,42 @@
+.hero{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+.hero .btn{
+   position: absolute;top: 80%;
+   left: 0;
+   background-color: #fff;
+   padding: 0.5rem 1rem;
+   cursor: pointer;
+   font-weight: bold;
+   
+}
+.hero .btn:hover{
+   
+   background-color: #b4b4b4;
+   
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .hero{
+        width: 100%;
+        margin: auto;
+    }
+
+    .hero .btn{
+        position: absolute;top: 70%;
+        left: 0;
+        background-color: #fff;
+        padding: 0.3rem 0.4rem;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 0.7rem;
+        
+     }
+}

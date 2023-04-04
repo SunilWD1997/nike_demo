@@ -1,0 +1,17 @@
+/* .main{
+    
+} */
+
+.crosel{
+    margin: 0 9rem;
+}
+.pad{
+    padding: 0 1rem;
+}
+
+
+@media screen and (max-width: 768px){
+    .crosel{
+        margin: 0 4rem;
+    }
+}

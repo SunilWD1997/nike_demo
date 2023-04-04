@@ -1,0 +1,32 @@
+.products{
+    width: 80%;
+    margin: auto;
+margin-bottom: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1rem;
+    grid-row-gap: 2rem;
+}
+
+@media screen and (max-width: 768px){
+    .products{
+        width: 90%;
+        
+    
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 1rem;
+        grid-row-gap: 2rem;
+    }
+}
+@media screen and (max-width: 480px){
+    .products{
+        width: 98%;
+        
+    
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 0.2rem;
+        grid-row-gap: 1rem;
+    }
+}

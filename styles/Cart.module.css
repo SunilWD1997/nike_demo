@@ -1,0 +1,14 @@
+.cart{
+    width: 80%;
+    margin: 4rem auto;
+    display: flex;
+    justify-content: space-around;
+}
+.cart .left{
+    background-color: rgb(243, 164, 164);
+    flex: 2;
+}
+.cart .right{
+    background-color: rgb(99, 97, 97);
+    flex: 1;
+}
